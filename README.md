@@ -1,4 +1,4 @@
-#Island Games (React)
+# Island Games (React)
 
 Island Games é um projeto para demonstrar minhas habilidades e as possibilidades do que é possível fazer com JavaScript e uma boa lógica de programação. Apenas um projeto pessoal para demonstrar.
 
