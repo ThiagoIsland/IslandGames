@@ -1,0 +1,81 @@
+.textarea {
+   font-size: 20px;
+   width: 51%;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #CFCFCF; 
+   margin-bottom: 20px;
+   background-color: #2c3e50; 
+   color: #2fd823;
+}
+
+.Cripto {
+   font-family: "Courier New", Courier, monospace;
+   font-size: 1.2em;
+   color: #fcfcfc; 
+   background-color: #2c3e50; 
+   padding: 20px;
+   border-radius: 8px;
+   width: 50%; 
+   margin-left: auto;
+   margin-right: auto;  
+}
+
+.ciphered-text {
+   font-size: 1.5rem;
+   margin: 1rem 0;
+   font-style: italic;
+   color: #CFCFCF;
+}
+
+.user-input {
+   width: 100%;
+   padding: 0.5rem;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   background-color: #2c3e50;
+   color: #CFCFCF;
+   border: 1px solid #CFCFCF;
+}
+
+.letter-animation {
+   display: inline-block;
+   animation: scrollLetter 1s steps(26, end) infinite, revealLetter 1s forwards;
+   overflow: hidden;
+   width: 1ch;  
+}
+
+.button{
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px ;
+   margin-bottom: 50px;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+
+@keyframes scrollLetter {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-26em); }
+}
+
+@keyframes revealLetter {
+   100% { opacity: 1; }
+}
+
+@media only screen and (max-width: 768px) {
+   .textarea {
+      width: 82%;
+   }
+   
+   .Cripto {
+      width: 80%; 
+   }
+}
