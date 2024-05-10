@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './rps.css';
  
-function RPS({}) {
+function RPS({progressToNextLevel}) {
   const [escolhaUser, setEscolhaUser] = useState('');
   const [escolhaComputer, setEscolhaComputer] = useState('');
   const [result, setResult] = useState('');

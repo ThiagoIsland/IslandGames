@@ -6,7 +6,7 @@ As tecnologias e ferramentas utilizadas foram JavaScript, HTML/CSS, React e a bi
 
 *OBSERVAÇÕES*
 
-- Existe um bug que não permite o usuário voltar após finalizar o jogo do Pedra, Papel e Tesoura, como acontece nos outros dois joogs. Para voltar basta apenas apertar F5 ou reiniciar a página. Sera Corrigido nas proximas versões.
+- CORRIGIDO/Existe um bug que não permite o usuário voltar após finalizar o jogo do Pedra, Papel e Tesoura, como acontece nos outros dois joogs. Para voltar basta apenas apertar F5 ou reiniciar a página. Sera Corrigido nas proximas versões.
 
 # Tela Inicial
 <img width="1440" alt="Captura de Tela 2024-01-18 às 00 06 13" src="https://github.com/ThiagoIsland/IslandGames/assets/114539167/f9985980-97b2-4881-93e9-36c1fc68511c">
